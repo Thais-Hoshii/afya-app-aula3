@@ -4,6 +4,20 @@ export default createGlobalStyle`
     * {
         padding: 0;
         margin: 0%;
-        background: red;
+        font-family: "Roboto", sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .container {
+        width: 75%;
+        margin: auto;
+    }
+
+    footer {
+        height: 200px;
+        text-align: center;
     }
 `
